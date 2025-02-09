@@ -19,7 +19,6 @@ function App() {
       })
       .catch(error => console.error("Error:", error));
   };
-
   return (
     <div className={`container ${darkMode ? "dark" : ""}`}>
       {/* Dark Mode Toggle Button */}
