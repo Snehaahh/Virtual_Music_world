@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15f269cc-0466-44c9-b1d6-dbc8832576ea" name="Changes" comment="Drums done">
+    <list default="true" id="15f269cc-0466-44c9-b1d6-dbc8832576ea" name="Changes" comment="keyboard done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +83,7 @@
       <workItem from="1739029462086" duration="2122000" />
       <workItem from="1739031934957" duration="2614000" />
       <workItem from="1739034693585" duration="14096000" />
+      <workItem from="1739068725877" duration="718000" />
     </task>
     <task id="LOCAL-00001" summary="Drums done">
       <option name="closed" value="true" />
@@ -93,7 +93,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739045065134</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="keyboard done">
+      <option name="closed" value="true" />
+      <created>1739068965329</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1739068965329</updated>
+    </task>
+    <task id="LOCAL-00003" summary="keyboard done">
+      <option name="closed" value="true" />
+      <created>1739068980567</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1739068980567</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,9 +117,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Drums done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Drums done" />
+    <MESSAGE value="keyboard done" />
+    <option name="LAST_COMMIT_MESSAGE" value="keyboard done" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/virtual_Music_World$main.coverage" NAME="main Coverage Results" MODIFIED="1739061113519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/virtual_Music_World$main.coverage" NAME="main Coverage Results" MODIFIED="1739068730385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
