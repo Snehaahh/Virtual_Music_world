@@ -1,40 +1,71 @@
-# 🎵 Virtual Instrument Player  
-Basic Details
-##Team Name : Cipher
-##Team Members
-Member 1:Cliya C Varghese : ASIET
-Member 2:Snehamol K M: ASIET
+# Virtual Musical World🎯
 
-##Project description
-A web-based application that lets users play musical instruments like piano and drums virtually—without any physical instruments! Just use hand gestures in the air to create music.  
+## Basic Details
+### Team Name: Cipher
 
-## 🚀 Features  
-- Play multiple instruments simultaneously.  
-- No physical keyboard or drum set needed.  
-- Interactive and real-time experience.  
+### Team Members
+- Member 1: Cliya C Varghese - Adi Shankara Institute of Engineering and Technology
+- Member 2: Snehamol K M - Adi Shankara Institute of Engineering and Technology
 
-## 📌 How It Works  
-1. Click the **"Get Started"** button on the website.  
-2. Grant camera access for hand tracking.  
-3. Play instruments in the air using gestures!  
+### Project Description
+Our project allows users to play musical instruments virtually using hand gestures detected via a webcam. No physical instruments or keyboard keys are required—just move your hands in the air to create music!
 
-## 🔧 Setup & Installation  
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/your-username/virtual-instrument-player.git
-   cd virtual-instrument-player
-   ```  
-2. Install dependencies (for Python backend):  
-   ```bash
-   pip install -r requirements.txt
-   ```  
-3. Run the server:  
-   ```bash
-   python app.py
-   ```  
-4. Open the frontend in a browser and start playing!  
+### The Problem Statement
+What if you could play musical instruments without owning them? Traditional instruments are expensive, require physical space, and can’t be carried everywhere. Plus, accessibility for people with disabilities is limited.
 
-## 📜 License  
-This project is open-source under the MIT License.  
+### The Solution
+We created a virtual instrument-playing platform where users can play different musical instruments in the air using hand gestures. Our web-based solution uses a webcam to detect hand movements and map them to instrument sounds.
 
----
+## Technical Details
+### Technologies/Components Used
+For Software:
+- Languages: Python, JavaScript, HTML, CSS
+- Frameworks: Flask (for backend), React (for frontend)
+- Libraries: OpenCV, Mediapipe (for hand tracking), TensorFlow (for model processing), Tone.js (for audio processing)
+- Tools:VS Code, GitHub, Firebase/AWS for hosting
+
+For Hardware:
+- Webcam (for detecting hand gestures)
+- Computer (for processing and playing sounds)
+
+### Implementation
+For Software:
+#### Installation
+```bash
+# Clone the repository
+git clone [repository link]
+cd [project folder]
+
+# Install dependencies
+pip install -r requirements.txt  # For Python backend
+npm install  # For React frontend
+```
+
+#### Run
+```bash
+# Start backend
+python app.py
+
+# Start frontend
+npm start
+```
+
+### Project Documentation
+For Software:
+
+#### Screenshots 
+
+
+
+
+
+### Project Demo
+#### Video
+
+
+
+
+## Team Contributions
+- Cliya C Varghese: Backend development, AI model integration
+- Snehamol K M: Frontend UI/UX design, website implementation
+
