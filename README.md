@@ -1,5 +1,11 @@
 # 🎵 Virtual Instrument Player  
+Basic Details
+##Team Name : Cipher
+##Team Members
+Member 1:Cliya C Varghese : ASIET
+Member 2:Snehamol K M: ASIET
 
+##Project description
 A web-based application that lets users play musical instruments like piano and drums virtually—without any physical instruments! Just use hand gestures in the air to create music.  
 
 ## 🚀 Features  
