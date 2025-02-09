@@ -10,6 +10,16 @@ function App() {
     document.body.classList.toggle("dark-mode");
   };
 
+  // Function to call the backend when the button is clicked
+  const startModel = () => {
+    fetch("http://127.0.0.1:5000/start-model")
+      .then(response => response.json())
+      .then(data => {
+        alert(data.message || data.error);
+      })
+      .catch(error => console.error("Error:", error));
+  };
+
   return (
     <div className={`container ${darkMode ? "dark" : ""}`}>
       {/* Dark Mode Toggle Button */}
@@ -24,9 +34,8 @@ function App() {
       <p>🎧 No downloads required – just play!</p>
 
       <img src="/images/image.png" alt="3D Music" className="music-image" />
-
-      {/* Get Started Button */}
-      <button onClick={() => alert("Camera will open here!")}>Get Started</button>
+    
+      <button id="getStarted" onClick={startModel}>Get Started</button>
     </div>
   );
 }
