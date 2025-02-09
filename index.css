@@ -1,0 +1,116 @@
+/* General styles */
+body {
+  font-family: "MyCustomFont", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(-45deg, #ff9a9e, #fad0c4, #ffdde1, #fcb69f);
+  background-size: 400% 400%;
+  animation: gradientBG 4s ease infinite;
+  color: rgb(79, 5, 69);
+  text-align: center;
+  transition: background 0.5s ease-in-out;
+}
+
+/* Dark mode */
+body.dark-mode {
+  background: linear-gradient(-45deg, #232526, #414345);
+  color: white;
+}
+
+/* Background animation */
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Container with enhanced glassmorphism */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.15); 
+  backdrop-filter: blur(15px);
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.3); /* Stronger shadow */
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Title styles */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Paragraph styles */
+p {
+  font-size: 1.2rem;
+  margin: 5px 0;
+}
+
+/* Button styles */
+button {
+  background-color: white;
+  color: #ff6f61;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.3s ease-in-out;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #f1f1f1;
+  transform: scale(1.05);
+}
+
+/* Dark Mode Toggle Button */
+.dark-mode-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  transition: transform 0.3s ease-in-out;
+  color: white;
+}
+
+.dark-mode-toggle:hover {
+  transform: scale(1.1);
+}
+
+/* Dark Mode */
+.dark-mode {
+  background: #1a1a2e;
+  color: #e0e0e0;
+}
+
+/* Icon Animation */
+.icon {
+  transition: transform 0.3s ease-in-out;
+}
+
+.dark .icon {
+  transform: rotate(360deg);
+}
+
+@font-face {
+  font-family: "MyCustomFont";
+  src: url("./fonts/Poppins-Regular.ttf") format("truetype");
+}
+
