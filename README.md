@@ -1,4 +1,4 @@
-# Virtual Musical World🎯
+![Screenshot 2025-02-09 093701](https://github.com/user-attachments/assets/4f9cecae-6274-4bbd-8fe2-bd60f2961a10)# Virtual Musical World🎯
 
 ## Basic Details
 ### Team Name: Cipher
@@ -21,8 +21,8 @@ We created a virtual instrument-playing platform where users can play different 
 For Software:
 - Languages: Python, JavaScript, HTML, CSS
 - Frameworks: Flask (for backend), React (for frontend)
-- Libraries: OpenCV, Mediapipe (for hand tracking), TensorFlow (for model processing), Tone.js (for audio processing)
-- Tools:VS Code, GitHub, Firebase/AWS for hosting
+- Libraries: OpenCV, Mediapipe (for hand tracking)
+- Tools:VS Code, Pycharm ,GitHub
 
 For Hardware:
 - Webcam (for detecting hand gestures)
